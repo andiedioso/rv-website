@@ -1,0 +1,2 @@
+// CAROUSEL
+$('.carousel').carousel()
