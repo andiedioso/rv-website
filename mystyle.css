@@ -56,6 +56,10 @@ p, .p {
     line-height: 1.2;
 }
 
+.navbar-toggler{
+    background-color:  #C70039;
+}
+
 a, .text-red {
     color: #C70039;
 }
