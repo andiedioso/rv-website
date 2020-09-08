@@ -4,6 +4,8 @@
 /* Carousel base class */
 .carousel {
     margin-bottom: 4rem;
+    overflow:hidden;
+    height: 40em;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -12,23 +14,21 @@
   }
   
   /* Declare heights because of positioning of img element */
-  .carousel-item {
+  /* .carousel-item {
     height: 32rem;
-  }
+  } */
   .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 32rem;
+    position: relative;
+    bottom: 11em;
+    width: 100%;
   }
 
-/* images */
+/* images
 img {
     width: 1024px;
     height: 512px;
     overflow: hidden;
-}
+} */
 
 /* Headings */
 h1, h2, h3, h4, h5, h6,
@@ -62,6 +62,10 @@ p, .p {
 
 a, .text-red {
     color: #C70039;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .portfolio .portfolio-item {
@@ -114,3 +118,4 @@ a, .text-red {
     background-color:  #FF3339;
     color: white;
   }
+
