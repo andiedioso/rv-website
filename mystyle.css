@@ -1,34 +1,9 @@
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-    margin-bottom: 4rem;
-    overflow:hidden;
-    height: 40em;
-  }
-  /* Since positioning the image, we need to help out the caption */
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-  }
-  
-  /* Declare heights because of positioning of img element */
-  /* .carousel-item {
-    height: 32rem;
-  } */
-  .carousel-item > img {
-    position: relative;
-    bottom: 11em;
-    width: 100%;
-  }
-
-/* images
-img {
-    width: 1024px;
-    height: 512px;
-    overflow: hidden;
-} */
+.carousel{
+  margin-bottom:4em;
+}
 
 /* Headings */
 h1, h2, h3, h4, h5, h6,
