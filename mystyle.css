@@ -31,6 +31,9 @@ p, .p {
     line-height: 1.2;
 }
 
+#haetnim{
+  bottom: 20px;
+}
 .navbar-toggler{
     background-color:  #C70039;
 }
