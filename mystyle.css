@@ -89,6 +89,11 @@ ul {
   opacity: 1;
 }
 
+.btn {
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 .btn_modal{
     background-color:  #FF3339;
     color: white;
